@@ -1,18 +1,28 @@
 <nav>
 	<ul>
 		<li>
-			<img src="https://img.icons8.com/pix/64/000000/experimental-home-pix.png" alt="house" />
+			<a href="/">
+				<img src="https://img.icons8.com/ios/50/000000/country-house.png" alt="house" />
+			</a>
 		</li>
-		<li><img src="https://img.icons8.com/ios/50/000000/pencil--v1.png" alt="pencil" /></li>
-		<li><img src="https://img.icons8.com/dotty/80/000000/github.png" /></li>
+		<li>
+			<a href="/create"
+				><img src="https://img.icons8.com/ios/50/000000/pencil--v1.png" alt="pencil" /></a
+			>
+		</li>
+		<li>
+			<a href="https://github.com/DevChaudhary78/seadiaries"
+				><img src="https://img.icons8.com/dotty/80/000000/github.png" alt="github" /></a
+			>
+		</li>
 	</ul>
 </nav>
 
 <style>
 	nav {
-		background: #23272a;
+		background: var(--discord-blue-darkest);
 		height: 100%;
-		width: 7vw;
+		width: 5vw;
 		display: fixed;
 	}
 
@@ -26,7 +36,7 @@
 		list-style: none;
 	}
 	li {
-		background-color: #7289da;
+		background-color: var(--discord-blue);
 		border-radius: 50%;
 		padding: 10px;
 		margin: 20px 0;
@@ -35,11 +45,11 @@
 
 	li:hover {
 		background-color: #99aab5;
-		border-radius: 30px;
+		border-radius: 25px;
 	}
 
 	img {
-		height: 50px;
-		width: 50px;
+		height: 40px;
+		width: 40px;
 	}
 </style>
