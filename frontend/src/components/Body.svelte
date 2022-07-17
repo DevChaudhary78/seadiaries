@@ -8,7 +8,7 @@
 
 <style>
 	section {
-		background-color: #99aab5;
+		background-color: var(--discord-blue);
 		width: 100%;
 		display: flex;
 		flex-direction: column;

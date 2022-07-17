@@ -1677,6 +1677,7 @@ dependencies = [
 name = "sea-diaries"
 version = "0.1.0"
 dependencies = [
+ "chrono",
  "dotenv",
  "mongodb",
  "rocket",

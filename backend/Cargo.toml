@@ -9,6 +9,7 @@ edition = "2021"
 dotenv = "0.15.0"
 rocket = {version = "0.5.0-rc.2", features = ["json"]}
 serde = "1.0.138"
+chrono = "0.4.19"
 
 [dependencies.mongodb]
 version = "2.2.0"
